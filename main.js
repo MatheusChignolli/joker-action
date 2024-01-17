@@ -18,7 +18,7 @@ async function getJoke() {
 
 async function run() {
   const joke = await getJoke();
-  console.log(joke);
+  console.log("The joke: ", joke);
   core.setOutput("joke-output", joke);
 }
 
