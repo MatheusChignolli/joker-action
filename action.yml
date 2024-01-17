@@ -1,0 +1,11 @@
+name: Joke action
+
+description: A simple joke action
+
+outputs:
+  joke-output:
+    description: The result joke
+
+runs:
+  using: node20
+  main: main.js
